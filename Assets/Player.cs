@@ -7,7 +7,8 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transfrom.position = Vector3.zero;
+        transform.position = Vector3.zero;
+        Debug.Log("TEST");
     }
 
     // Update is called once per frame
