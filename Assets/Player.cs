@@ -14,8 +14,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-                Debug.Log("DDDDDDDDDDDDD"):
-                        Debug.Log("DDDDDDDDDDDDD"):
-                                Debug.Log("DDDDDDDDDDDDD"):
+        if (Input.GetKeyDown(KeyCode.Space))
+            Debug.Log("ATTack");
     }
 }
